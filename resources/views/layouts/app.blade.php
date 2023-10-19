@@ -18,7 +18,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm mb-5">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Brave Horse') }}
@@ -47,8 +47,8 @@
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
+        <!-- class="py-4 d-flex justify-content-center" -->
+        <main >
             @yield('content')
         </main>
     </div>
